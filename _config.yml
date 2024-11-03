@@ -14,7 +14,7 @@ name                     : &name "Siwon Lim"
 description              : &description "Cybersecurity"
 url                      : https://siwonlim.github.io/C1.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "https://github.com/SiwonLim/C1.github.io"
+repository               : "SiwonLim/C1.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -23,10 +23,10 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Siwon Lim"
-  pronouns         : # example: "she/her"  
+  pronouns         : # example: "she/her"
   bio              : "Cybersecurity"
-  location         : "Vancouver, CA"
-  employer         : "New York Institute of Technology - Vancouver Campus"
+  location         : "Vancouver, BC"
+  employer         : "Student | New York Tech"
   uri              : # URL
   email            : "dbu7422@gmail.com"
 
