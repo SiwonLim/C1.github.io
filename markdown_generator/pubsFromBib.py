@@ -30,16 +30,16 @@ publist = {
         "file" : "proceedings.bib",
         "venuekey": "booktitle",
         "venue-pretext": "In the proceedings of ",
-        "collection" : {"name":"publications",
-                        "permalink":"/publication/"}
+        "collection" : {"name":"certiprep",
+                        "permalink":"/certiprep/"}
         
     },
     "journal":{
         "file": "pubs.bib",
         "venuekey" : "journal",
         "venue-pretext" : "",
-        "collection" : {"name":"publications",
-                        "permalink":"/publication/"}
+        "collection" : {"name":"certiprep",
+                        "permalink":"/certiprep/"}
     } 
 }
 
@@ -151,7 +151,7 @@ for pubsource in publist:
 
             md_filename = os.path.basename(md_filename)
 
-            with open("../_publications/" + md_filename, 'w', encoding="utf-8") as f:
+            with open("../_certiprep/" + md_filename, 'w', encoding="utf-8") as f:
                 f.write(md)
             print(f'SUCESSFULLY PARSED {bib_id}: \"', b["title"][:60],"..."*(len(b['title'])>60),"\"")
         # field may not exist for a reference

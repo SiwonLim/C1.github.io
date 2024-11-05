@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "C1 LAB"
 title_separator          : "-"
 name                     : &name "Siwon Lim"
-description              : &description "Cybersecurity"
+description              : &description "Student / Cybersecurity"
 url                      : https://siwonlim.github.io/C1.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "SiwonLim/C1.github.io"
@@ -21,34 +21,34 @@ repository               : "SiwonLim/C1.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "avatar.jpeg"
   name             : "Siwon Lim"
   pronouns         : # example: "she/her"
-  bio              : "Cybersecurity"
+  bio              : "Student / Cybersecurity"
   location         : "Vancouver, BC"
-  employer         : "Student | New York Tech"
+  employer         : "New York Tech"
   uri              : # URL
   email            : "dbu7422@gmail.com"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : ""
+  googlescholar    : #
   impactstory      : # URL
-  orcid            : ""
+  orcid            : #
   semantic         : # URL
-  pubmed           : ""
+  pubmed           : #
   researchgate     : # URL
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "C1 LAB"
+  github           : "SiwonLim"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -206,6 +206,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  certiprep:
+    output: true
+    permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
@@ -247,6 +250,15 @@ defaults:
   - scope:
       path: ""
       type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _certiprep
+  - scope:
+      path: ""
+      type: certiprep
     values:
       layout: single
       author_profile: true
