@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 I'm from South Korea🇰🇷, and currently living in Vancouver, Canada🇨🇦.\
-I’ve been posting about cybersecurity and certification prep, and I’m especially interested in defensive security.
+<!--I’ve been posting about cybersecurity and certification prep, and I’m especially interested in defensive security.-->
 
 <img src="https://ghchart.rshah.org/siwonlim" />
 
