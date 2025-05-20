@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "C1 LAB"
+title                    : "C1-Sec"
 title_separator          : "-"
 name                     : &name "Siwon Lim"
-description              : &description "Student / Cybersecurity"
+description              : &description ""
 url                      : https://siwonlim.github.io/C1.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "SiwonLim/C1.github.io"
@@ -21,12 +21,12 @@ repository               : "SiwonLim/C1.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "avatar.jpeg"
+  avatar           : "avatar2.jpg"
   name             : "Siwon Lim"
   pronouns         : # example: "she/her"
-  bio              : "Student / Cybersecurity"
+  bio              : "Network+ | Google Cybersecurity Certificate"
   location         : "Vancouver, BC"
-  employer         : "New York Tech"
+  #employer         : "New York Tech"
   uri              : # URL
   email            : "dbu7422@gmail.com"
 
@@ -209,7 +209,7 @@ collections:
   certiprep:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  projects:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -264,10 +264,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _projects
   - scope:
       path: ""
-      type: portfolio
+      type: projects
     values:
       layout: single
       author_profile: true

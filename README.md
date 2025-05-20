@@ -1,5 +1,2 @@
-# C1 LAB
-
-C1's Personal LAB
-
+# Personal Website
 https://siwonlim.github.io/C1.github.io/

@@ -1,0 +1,16 @@
+current directory: /Users/bethlim/Downloads/Lab/C1.github.io/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+/Users/bethlim/.rbenv/versions/2.7.6/bin/ruby -I /Users/bethlim/.rbenv/versions/2.7.6/lib/ruby/2.7.0 -r ./siteconf20250519-95173-f7kgyh.rb extconf.rb
+creating Makefile
+
+current directory: /Users/bethlim/Downloads/Lab/C1.github.io/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make "DESTDIR=" clean
+
+current directory: /Users/bethlim/Downloads/Lab/C1.github.io/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make "DESTDIR="
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.bundle
+
+current directory: /Users/bethlim/Downloads/Lab/C1.github.io/vendor/bundle/ruby/2.7.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 ruby_http_parser.bundle ./.gem.20250519-95173-1lt8uwc
